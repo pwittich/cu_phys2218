@@ -1,0 +1,5 @@
+*.pdf
+*.png
+*.mp4
+*.py[cod]
+__pycache__
