@@ -31,3 +31,4 @@ def axes( ax: Axes = 0 ) -> None:
     ax.plot(0, 1, "^k", transform=ax.get_xaxis_transform(), clip_on=False)
     # turn on a grid
     ax.grid(True)
+    plt.show()
