@@ -2,7 +2,7 @@
 from matplotlib.axes import Axes
 import matplotlib.pyplot as plt
 
-def axes( ax: Axes = 0 ) -> None:
+def phy_axes( ax: Axes = 0 ) -> None:
     """Set up axes and plot in a way that is typically used in physics class"""
     # if no ax passed in, use the default 
     if ( ax == 0 ):
